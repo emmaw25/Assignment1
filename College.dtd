@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT College (Faculty+) >
+    <!ELEMENT Faculty (FacultyName, Head, Administrator+, School+) >
+    <!ELEMENT FacultyName (#PCDATA)>
+    <!ELEMENT Administrator (#PCDATA)>
+<!ELEMENT School (SchoolName, Head+, Administrator+, Department+) >
+    <!ELEMENT SchoolName (#PCDATA)>
+<!ELEMENT Department (DeptName, Head?, Administrator+, programmes)>
+    <!ELEMENT DeptName (#PCDATA)>
+<!ELEMENT Head (title, firstname, lastname, email, telephone, office)>
+    <!ATTLIST title Title CDATA #REQUIRED >
+    <!ELEMENT firstname (#PCDATA)>
+    <!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT telephone (#PCDATA)>
+    <!ELEMENT office (#PCDATA) >
+<!ELEMENT programmes (Undergrad, Postgrad, code)>
+    <!ELEMENT code (#PCDATA) >
+    <!ELEMENT Undergrad (#PCDATA)>
+    <!ELEMENT Postgrad (#PCDATA)>
+<!ELEMENT Module (Modname, CRN, NFQ, credits, co-ordinator, author, lecturer+, student+) >
+   <!ATTLIST Modname ModuleName CDATA #REQUIRED>
+   <!ATTLIST CRN crn CDATA #REQUIRED>
+   <!ATTLIST NFQ nfq CDATA #REQUIRED>
+   <!ATTLIST credits Credits CDATA #REQUIRED>
+   <!ATTLIST co-ordinator Co-Ordinator CDATA #REQUIRED>
+   <!ATTLIST author Author CDATA #REQUIRED>
+ <!ELEMENT lecturer (title, firstname, lastname, email, telephone, office)>
+ <!ELEMENT student (firstname, lastname, address, telephone, studentID, gender, status)> 
+    <!ELEMENT address (#PCDATA)>
+    <!ATTLIST gender Gender (M|F) #IMPLIED >
+    <!ATTLIST status Status (registered|withdrawn|deferred) #IMPLIED >
+    <!ELEMENT registered (#PCDATA)>
+    <!ELEMENT withdrawn (#PCDATA)>
+    <!ELEMENT deferred (#PCDATA)>
+    <!ELEMENT studentID (#PCDATA)>
+    
