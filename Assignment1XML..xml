@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE College SYSTEM "CIT.dtd">
+<College>
+    <faculty>
+        <Business>
+            <FacultyName>Business and Humanities</FacultyName>
+            <Head>
+                <Name>
+                    <firstname>Gerard</firstname>
+                    <lastname>O'Donovan</lastname>
+                </Name>
+                <title HeadTitle="">Mr</title>
+                <email>gerard.odonovan@cit.ie</email>
+                <telephone>0214335480</telephone>
+                <office>Bishopstown</office>
+            </Head>
+            <Admin>
+                <AdminName>
+                    <FirstName>Orla</FirstName>
+                    <Surname>O'Shea</Surname>
+                </AdminName>
+                <AdminTitle>Ms</AdminTitle>
+                <AdminEmail>orla.oshea@cit.ie</AdminEmail>
+                <AdminTelephone>0214335800</AdminTelephone>
+                <AdminOffice>Cork</AdminOffice>
+            </Admin>
+            <school>
+                <SchoolName>Business</SchoolName>
+                <Head>
+                    <Name>
+                        <firstname>Breda</firstname>
+                        <lastname>Kenny</lastname>
+                    </Name>
+                    <title HeadTitle="">Ms</title>
+                    <email>bredakenny@cit.ie</email>
+                    <telephone>0214335923</telephone>
+                    <office>Cork</office>
+                </Head>
+                <Admin>
+                    <AdminName>
+                        <FirstName>Michelle</FirstName>
+                        <Surname>Kelleher</Surname>
+                    </AdminName>
+                    <AdminTitle>Ms</AdminTitle>
+                    <AdminEmail>michelle.kelleher@cit.ie</AdminEmail>
+                    <AdminTelephone>0214335804</AdminTelephone>
+                    <AdminOffice>Cork</AdminOffice>
+                </Admin>
+                <department>
+                    <DeptName>Management and Enterprise</DeptName>
+                    <Head>
+                        <Name>
+                            <firstname>Caroline</firstname>
+                            <lastname>O'Reilly</lastname>
+                        </Name>
+                        <title HeadTitle="">Ms</title>
+                        <email>caroline.oreilly@cit.ie</email>
+                        <telephone>0214335805</telephone>
+                        <office>Bishopstown</office>
+                    </Head>
+                    <Admin>
+                        <AdminName>
+                            <FirstName>Louise</FirstName>
+                            <Surname>Byrne</Surname>
+                        </AdminName>
+                        <AdminTitle>Ms</AdminTitle>
+                        <AdminEmail>louise.byrne@cit.ie</AdminEmail>
+                        <AdminTelephone>0214335806</AdminTelephone>
+                        <AdminOffice>Bishopstown</AdminOffice>
+                    </Admin>
+                    <Programme>
+                        <Code codeID="CR_BMRKT_8">CR_BMRKT_8</Code>
+                        <Progtype progtype="">
+                            <Undergrad>
+                                <title HeadTitle="Marketing">Marketing</title>
+                                <host>Marketing and International Business</host>
+                                <NFQ nfq="8">8</NFQ>
+                                <delivery>Full-time</delivery>
+                                <semesters>8</semesters>
+                                <credits Credits="90">90</credits>
+                                <Module>
+                                    <type>
+                                        <mandatory>Y</mandatory>
+                                        <elective></elective>
+                                    </type>
+                                    <ModuleName>Introduction to Marketing</ModuleName>
+                                    <CRN>MRKT6004</CRN>
+                                    <NFQ nfq="Fundamental">Fundamental</NFQ>
+                                    <credits Credits="5">5</credits>
+                                    <lecturer lecturer="">
+                                        <firstname>Pio</firstname>
+                                        <lastname>Fenton</lastname>
+                                        <title HeadTitle="Mr">Mr</title>
+                                        <email>pio.fenton@cit.ie</email>
+                                        <telephone>0214335922</telephone>
+                                        <office>Cork</office>
+                                    </lecturer>
+                                    <student>
+                                        <firstname>Roisin</firstname>
+                                        <lastname>O'Brien</lastname>
+                                        <address>1 Albert Quay, Cork</address>
+                                        <telephone>021456789</telephone>
+                                        <studentID StudentID="20018">20018</studentID>
+                                        <gender GENDER="F"></gender>
+                                        <status Status="registered"></status>
+                                    </student>
+                                </Module>
+                            </Undergrad>
+                            <Postgrad>
+                                <title HeadTitle="MA in Global Practice">MA in Global Practice</title>
+                                <host>Marketing and International Business</host>
+                                <NFQ nfq="9">9</NFQ>
+                                <delivery>Full-time</delivery>
+                                <semesters>3</semesters>
+                                <credits Credits="90">90</credits>
+                                <Module>
+                                    <type>
+                                        <mandatory>Y</mandatory>
+                                        <elective></elective>
+                                    </type>
+                                    <ModuleName>Performance and Data Evaluation</ModuleName>
+                                    <CRN>ACCT9002</CRN>
+                                    <NFQ nfq="Expert">Expert</NFQ>
+                                    <credits Credits="5">5</credits>
+                                    <lecturer lecturer="">
+                                        <firstname>Sharon</firstname>
+                                        <lastname>Lehane</lastname>
+                                        <title HeadTitle="">Ms</title>
+                                        <email>sharon.lehane@cit.ie</email>
+                                        <telephone>0214335923</telephone>
+                                        <office>Bishopstown</office>
+                                    </lecturer>
+                                    <student>
+                                        <firstname>Victoria</firstname>
+                                        <lastname>Smith</lastname>
+                                        <address>3 Albert Quay, Cork</address>
+                                        <telephone>0865496685</telephone>
+                                        <studentID StudentID="">202020</studentID>
+                                        <gender GENDER="F"></gender>
+                                        <status Status="deferred"></status>
+                                    </student>
+                                </Module>
+                            </Postgrad>
+                        </Progtype>
+                    </Programme>
+                </department>
+            </school>
+        </Business>
+        <Engineering>
+            <FacultyName>Engineering and Science</FacultyName>
+            <Head>
+                <Name>
+                    <firstname>Michael</firstname>
+                    <lastname>Loftus</lastname>
+                </Name>
+                <title HeadTitle="Mr">Mr</title>
+                <email>michael.loftus@cit.ie</email>
+                <telephone>021345678</telephone>
+                <office>Bishopstown</office>
+            </Head>
+            <Admin>
+                <AdminName>
+                    <FirstName>Norma</FirstName>
+                    <Surname>Welch</Surname>
+                </AdminName>
+                <AdminTitle>Ms</AdminTitle>
+                <AdminEmail>eng.admin@cit.ie</AdminEmail>
+                <AdminTelephone>0214335450</AdminTelephone>
+                <AdminOffice>Bishopstown</AdminOffice>
+            </Admin>
+            <school>
+                <SchoolName>Building and Civil Engineering</SchoolName>
+                <Head>
+                    <Name>
+                        <firstname>Joe</firstname>
+                        <lastname>Harrington</lastname>
+                    </Name>
+                    <title HeadTitle="Dr">Dr</title>
+                    <email>schoolofbandC@cit.ie</email>
+                    <telephone>0214335950</telephone>
+                    <office>Bishopstown</office>
+                </Head>
+                <Admin>
+                    <AdminName>
+                        <FirstName>Andy</FirstName>
+                        <Surname>Harris</Surname>
+                    </AdminName>
+                    <AdminTitle>Mr</AdminTitle>
+                    <AdminEmail>andrew.harris@cit.ie</AdminEmail>
+                    <AdminTelephone>021123456</AdminTelephone>
+                    <AdminOffice>Bishopstown</AdminOffice>
+                </Admin>
+                <department>
+                    <DeptName>Architecture</DeptName>
+                    <Head>
+                        <Name>
+                            <firstname>Katherine</firstname>
+                            <lastname>Keane</lastname>
+                        </Name>
+                        <title HeadTitle="Mrs">Mrs</title>
+                        <email>katherine.keane@cit.ie</email>
+                        <telephone>0214335970</telephone>
+                        <office>Cork</office>
+                    </Head>
+                    <Admin>
+                        <AdminName>
+                            <FirstName>Carmel</FirstName>
+                            <Surname>Collins</Surname>
+                        </AdminName>
+                        <AdminTitle>Mrs</AdminTitle>
+                        <AdminEmail>carmel.collins@cit.ie</AdminEmail>
+                        <AdminTelephone>0214335950</AdminTelephone>
+                        <AdminOffice>Bishopstown</AdminOffice>
+                    </Admin>
+                    <Programme>
+                        <Code codeID="CA_RACT_9">CA_RACT_9</Code>
+                        <Progtype progtype="">
+                            <Undergrad>
+                                <title HeadTitle="Architectural Technology">Architectural Technology</title>
+                                <host>Architecture</host>
+                                <NFQ nfq="8">8</NFQ>
+                                <delivery>Full-time</delivery>
+                                <semesters>8</semesters>
+                                <credits Credits="240">240</credits>
+                                <Module>
+                                    <type>
+                                        <mandatory>Y</mandatory>
+                                        <elective></elective>
+                                    </type>
+                                    <ModuleName>Technical Design Studio 1</ModuleName>
+                                    <CRN>ARCH605</CRN>
+                                    <NFQ nfq="Fundamental">Fundamental</NFQ>
+                                    <credits Credits="10">10</credits>
+                                    <lecturer lecturer="">
+                                        <firstname>James</firstname>
+                                        <lastname>O'Callaghan</lastname>
+                                        <title HeadTitle="Mr">Mr</title>
+                                        <email>james.ocallaghan@cit.ie</email>
+                                        <telephone>021876987</telephone>
+                                        <office>Bishopstown</office>
+                                    </lecturer>
+                                    <student>
+                                        <firstname>Sean</firstname>
+                                        <lastname>Power</lastname>
+                                        <address>9 Castle Road, Cork</address>
+                                        <telephone>0869548795</telephone>
+                                        <studentID StudentID="2012012"></studentID>
+                                        <gender GENDER="M"></gender>
+                                        <status Status="registered"></status>
+                                    </student>
+                                </Module>
+                            </Undergrad>
+                            <Postgrad>
+                                <title HeadTitle="Structural Engineering">Structural Engineering</title>
+                                <host>Civil, Structural and Environment Engineering</host>
+                                <NFQ nfq="9">9</NFQ>
+                                <delivery>Full-time</delivery>
+                                <semesters>3</semesters>
+                                <credits Credits="90">90</credits>
+                                <Module>
+                                    <type>
+                                        <mandatory></mandatory>
+                                        <elective>Y</elective>
+                                    </type>
+                                    <ModuleName>Managing Innovation</ModuleName>
+                                    <CRN>MGMT9003</CRN>
+                                    <NFQ nfq="9">9</NFQ>
+                                    <credits Credits="5">5</credits>
+                                    <lecturer lecturer="">
+                                        <firstname>Breda</firstname>
+                                        <lastname>Kenny</lastname>
+                                        <title HeadTitle="Ms">Ms</title>
+                                        <email>breda.kenny@cit.ie</email>
+                                        <telephone>0214335950</telephone>
+                                        <office>Bishopstown</office>
+                                    </lecturer>
+                                    <student>
+                                        <firstname>Emma</firstname>
+                                        <lastname>Walsh</lastname>
+                                        <address>12 Castle Road, Cork</address>
+                                        <telephone>0865478965</telephone>
+                                        <studentID StudentID="301245">301245</studentID>
+                                        <gender GENDER="F"></gender>
+                                        <status Status="withdrawn"></status>
+                                    </student>
+                                </Module>
+                            </Postgrad>
+                        </Progtype>
+                    </Programme>
+                </department>
+            </school>
+        </Engineering>
+    </faculty>
+    <school>
+        <SchoolName></SchoolName>
+        <Head>
+            <Name>
+                <firstname></firstname>
+                <lastname></lastname>
+            </Name>
+            <title HeadTitle=""></title>
+            <email></email>
+            <telephone></telephone>
+            <office></office>
+        </Head>
+        <Admin>
+            <AdminName>
+                <FirstName></FirstName>
+                <Surname></Surname>
+            </AdminName>
+            <AdminTitle></AdminTitle>
+            <AdminEmail></AdminEmail>
+            <AdminTelephone></AdminTelephone>
+            <AdminOffice></AdminOffice>
+        </Admin>
+        <department>
+            <DeptName></DeptName>
+            <Head>
+                <Name>
+                    <firstname></firstname>
+                    <lastname></lastname>
+                </Name>
+                <title HeadTitle=""></title>
+                <email></email>
+                <telephone></telephone>
+                <office></office>
+            </Head>
+            <Admin>
+                <AdminName>
+                    <FirstName></FirstName>
+                    <Surname></Surname>
+                </AdminName>
+                <AdminTitle></AdminTitle>
+                <AdminEmail></AdminEmail>
+                <AdminTelephone></AdminTelephone>
+                <AdminOffice></AdminOffice>
+            </Admin>
+            <Programme>
+                <Code codeID=""></Code>
+                <Progtype progtype="">
+                    <Undergrad>
+                        <title HeadTitle=""></title>
+                        <host></host>
+                        <NFQ nfq=""></NFQ>
+                        <delivery></delivery>
+                        <semesters></semesters>
+                        <credits Credits=""></credits>
+                        <Module>
+                            <type>
+                                <mandatory></mandatory>
+                                <elective></elective>
+                            </type>
+                            <ModuleName></ModuleName>
+                            <CRN></CRN>
+                            <NFQ nfq=""></NFQ>
+                            <credits Credits=""></credits>
+                            <lecturer lecturer="">
+                                <firstname></firstname>
+                                <lastname></lastname>
+                                <title HeadTitle=""></title>
+                                <email></email>
+                                <telephone></telephone>
+                                <office></office>
+                            </lecturer>
+                            <student>
+                                <firstname></firstname>
+                                <lastname></lastname>
+                                <address></address>
+                                <telephone></telephone>
+                                <studentID StudentID=""></studentID>
+                                <gender></gender>
+                                <status></status>
+                            </student>
+                        </Module>
+                    </Undergrad>
+                    <Postgrad>
+                        <title HeadTitle=""></title>
+                        <host></host>
+                        <NFQ nfq=""></NFQ>
+                        <delivery></delivery>
+                        <semesters></semesters>
+                        <credits Credits=""></credits>
+                        <Module>
+                            <type>
+                                <mandatory></mandatory>
+                                <elective></elective>
+                            </type>
+                            <ModuleName></ModuleName>
+                            <CRN></CRN>
+                            <NFQ nfq=""></NFQ>
+                            <credits Credits=""></credits>
+                            <lecturer lecturer="">
+                                <firstname></firstname>
+                                <lastname></lastname>
+                                <title HeadTitle=""></title>
+                                <email></email>
+                                <telephone></telephone>
+                                <office></office>
+                            </lecturer>
+                            <student>
+                                <firstname></firstname>
+                                <lastname></lastname>
+                                <address></address>
+                                <telephone></telephone>
+                                <studentID StudentID=""></studentID>
+                                <gender></gender>
+                                <status></status>
+                            </student>
+                        </Module>
+                    </Postgrad>
+                </Progtype>
+            </Programme>
+        </department>
+    </school>
+    <department>
+        <DeptName></DeptName>
+        <Head>
+            <Name>
+                <firstname></firstname>
+                <lastname></lastname>
+            </Name>
+            <title HeadTitle=""></title>
+            <email></email>
+            <telephone></telephone>
+            <office></office>
+        </Head>
+        <Admin>
+            <AdminName>
+                <FirstName></FirstName>
+                <Surname></Surname>
+            </AdminName>
+            <AdminTitle></AdminTitle>
+            <AdminEmail></AdminEmail>
+            <AdminTelephone></AdminTelephone>
+            <AdminOffice></AdminOffice>
+        </Admin>
+        <Programme>
+            <Code codeID=""></Code>
+            <Progtype progtype="">
+                <Undergrad>
+                    <title HeadTitle=""></title>
+                    <host></host>
+                    <NFQ nfq=""></NFQ>
+                    <delivery></delivery>
+                    <semesters></semesters>
+                    <credits Credits=""></credits>
+                    <Module>
+                        <type>
+                            <mandatory></mandatory>
+                            <elective></elective>
+                        </type>
+                        <ModuleName></ModuleName>
+                        <CRN></CRN>
+                        <NFQ nfq=""></NFQ>
+                        <credits Credits=""></credits>
+                        <lecturer lecturer="">
+                            <firstname></firstname>
+                            <lastname></lastname>
+                            <title HeadTitle=""></title>
+                            <email></email>
+                            <telephone></telephone>
+                            <office></office>
+                        </lecturer>
+                        <student>
+                            <firstname></firstname>
+                            <lastname></lastname>
+                            <address></address>
+                            <telephone></telephone>
+                            <studentID StudentID=""></studentID>
+                            <gender></gender>
+                            <status></status>
+                        </student>
+                    </Module>
+                </Undergrad>
+                <Postgrad>
+                    <title HeadTitle=""></title>
+                    <host></host>
+                    <NFQ nfq=""></NFQ>
+                    <delivery></delivery>
+                    <semesters></semesters>
+                    <credits Credits=""></credits>
+                    <Module>
+                        <type>
+                            <mandatory></mandatory>
+                            <elective></elective>
+                        </type>
+                        <ModuleName></ModuleName>
+                        <CRN></CRN>
+                        <NFQ nfq=""></NFQ>
+                        <credits Credits=""></credits>
+                        <lecturer lecturer="">
+                            <firstname></firstname>
+                            <lastname></lastname>
+                            <title HeadTitle=""></title>
+                            <email></email>
+                            <telephone></telephone>
+                            <office></office>
+                        </lecturer>
+                        <student>
+                            <firstname></firstname>
+                            <lastname></lastname>
+                            <address></address>
+                            <telephone></telephone>
+                            <studentID StudentID=""></studentID>
+                            <gender></gender>
+                            <status></status>
+                        </student>
+                    </Module>
+                </Postgrad>
+            </Progtype>
+        </Programme>
+    </department>
+    <Programme>
+        <Code codeID=""></Code>
+        <Progtype progtype="">
+            <Undergrad>
+                <title HeadTitle=""></title>
+                <host></host>
+                <NFQ nfq=""></NFQ>
+                <delivery></delivery>
+                <semesters></semesters>
+                <credits Credits=""></credits>
+                <Module>
+                    <type>
+                        <mandatory></mandatory>
+                        <elective></elective>
+                    </type>
+                    <ModuleName></ModuleName>
+                    <CRN></CRN>
+                    <NFQ nfq=""></NFQ>
+                    <credits Credits=""></credits>
+                    <lecturer lecturer="">
+                        <firstname></firstname>
+                        <lastname></lastname>
+                        <title HeadTitle=""></title>
+                        <email></email>
+                        <telephone></telephone>
+                        <office></office>
+                    </lecturer>
+                    <student>
+                        <firstname></firstname>
+                        <lastname></lastname>
+                        <address></address>
+                        <telephone></telephone>
+                        <studentID StudentID=""></studentID>
+                        <gender></gender>
+                        <status></status>
+                    </student>
+                </Module>
+            </Undergrad>
+            <Postgrad>
+                <title HeadTitle=""></title>
+                <host></host>
+                <NFQ nfq=""></NFQ>
+                <delivery></delivery>
+                <semesters></semesters>
+                <credits Credits=""></credits>
+                <Module>
+                    <type>
+                        <mandatory></mandatory>
+                        <elective></elective>
+                    </type>
+                    <ModuleName></ModuleName>
+                    <CRN></CRN>
+                    <NFQ nfq=""></NFQ>
+                    <credits Credits=""></credits>
+                    <lecturer lecturer="">
+                        <firstname></firstname>
+                        <lastname></lastname>
+                        <title HeadTitle=""></title>
+                        <email></email>
+                        <telephone></telephone>
+                        <office></office>
+                    </lecturer>
+                    <student>
+                        <firstname></firstname>
+                        <lastname></lastname>
+                        <address></address>
+                        <telephone></telephone>
+                        <studentID StudentID=""></studentID>
+                        <gender></gender>
+                        <status></status>
+                    </student>
+                </Module>
+            </Postgrad>
+        </Progtype>
+    </Programme>
+    <Module>
+        <type>
+            <mandatory></mandatory>
+            <elective></elective>
+        </type>
+        <ModuleName></ModuleName>
+        <CRN></CRN>
+        <NFQ nfq=""></NFQ>
+        <credits Credits=""></credits>
+        <lecturer lecturer="">
+            <firstname></firstname>
+            <lastname></lastname>
+            <title HeadTitle=""></title>
+            <email></email>
+            <telephone></telephone>
+            <office></office>
+        </lecturer>
+        <student>
+            <firstname></firstname>
+            <lastname></lastname>
+            <address></address>
+            <telephone></telephone>
+            <studentID StudentID=""></studentID>
+            <gender></gender>
+            <status></status>
+        </student>
+    </Module>
+</College>
